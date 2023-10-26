@@ -1,0 +1,26 @@
+.btn-default{
+    min-height: 52px;
+    color: $white;
+    text-align: center;
+    font-family: $BrandonmMedium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+    border-radius: 35px;
+    background: $red;
+    display: inline-flex;
+    padding:22px 40px 16px 40px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    &:hover{
+        background: $redhover;
+        color: $white;
+    }
+    &.btn-white{
+        background: $white;
+        color: $blue;
+    }
+}

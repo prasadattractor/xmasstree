@@ -1,0 +1,45 @@
+body{
+    max-width: 390px;
+    margin: 0 auto;
+    background-color: #1c1c1c;
+}
+
+.heading{
+    color: $white;
+    font-family: $quicheBold;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 15px;
+}
+p{
+    color: $white;
+    text-align: center;
+    font-family: $BrandonmMedium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px; 
+    margin-bottom: 0;
+}
+
+.page-links{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    color: #000;
+    background: #fff;
+    gap: 15px;
+    font-size: 20px;
+    align-items: center;
+    a{
+        color: #000;
+        text-decoration: none;
+        display: block;
+        line-height: 1;
+        background: #ddd;
+        width: 100%;
+        padding: 15px 15px;
+    }
+}

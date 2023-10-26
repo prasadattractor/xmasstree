@@ -1,0 +1,42 @@
+.screen-timesup{
+    background-image: url(img/screen-timesup.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    
+    .logo{
+        position: absolute;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        bottom: 30px;
+    }
+    .wc-text-wrap{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 90px;
+        .white-star{
+            margin-bottom: 30px;
+        }
+        .btn-default{
+            margin-bottom: 75px;
+        }
+        .heading{
+            color: $red;
+            font-size: 38px;
+            margin-bottom: 20px;
+        }
+        p{
+            margin: 0 auto;
+            font-size: 20px;
+            line-height: 24px;
+            span{
+                color: $red;
+            }
+        }
+    }
+}

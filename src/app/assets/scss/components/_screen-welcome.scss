@@ -1,0 +1,30 @@
+.screen-welcome{
+    background-image: url(img/screen-welcome.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    .logo{
+        position: absolute;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 20px;
+    }
+    .wc-text-wrap{
+        position: absolute;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        bottom: 25%;
+        text-align: center;
+        .btn-default{
+            margin-bottom: 75px;
+        }
+        p{
+            max-width: 222px;
+            margin: 0 auto;
+        }
+    }
+}

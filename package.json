@@ -1,0 +1,18 @@
+{
+  "name": "xmass-tree-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "next": "13.5.6",
+    "react": "^18",
+    "react-color": "^2.19.3",
+    "react-dom": "^18"
+  }
+}

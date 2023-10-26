@@ -1,0 +1,50 @@
+.screen-up{
+    background-image: url(img/screen-timesup.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    
+    .logo{
+        position: absolute;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        bottom: 30px;
+    }
+    .wc-text-wrap{
+        padding: 0 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 140px;
+        text-align: center;
+        .white-star{
+            margin-bottom: 30px;
+        }
+        .btn-wrap{
+            margin-bottom: 75px;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            align-items: center;
+        }
+        
+        .heading{
+            color: $red;
+            font-size: 38px;
+            margin-bottom: 20px;
+        }
+        p{
+            margin: 0 auto;
+            font-size: 20px;
+            line-height: 24px;
+            margin-bottom: 50px;
+            span{
+                color: $red;
+            }
+        }
+    }
+}
